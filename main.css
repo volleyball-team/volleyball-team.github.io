@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html, body {
+	height: 100%;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	outline: none;
+	border: 0;
+	font-family: "Roboto", sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+  background-color: #fafafa;;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.pasport {
+  border: 1px solid rgb(221 221 221);
+  border-radius: 10%;
+  width: 255px;
+  text-align: center; 
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  margin-left: 100px;
+  margin-top: 25px;
+  height: 370px;
+  margin-bottom: 30px;
+}
+
+.pasport:hover {
+  border: 1px solid #4e8f8f;
+}
+
+h3 {
+  margin-top: 18px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+h2 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.mi {
+  margin-top: 13px;
+  border-radius: 10%;
+}
+
+.info {
+  background-color: #4e8f8f;
+  height: 75px;
+  /* margin-top: 20px; */
+  padding-left: 25px;
+  font-size: x-large;
+  align-items: center;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.hh {
+  color: #fafafa;
+  font-size: 35px;
+  padding-right: 20px;
+}
+
+.input {
+  width: 350px;
+  height: 35px;
+  font-weight: bold;
+  align-items: center;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+.button {
+  display: inline-block;
+  margin-left: 5px;
+  font-weight: bold;
+  height: 35px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.volleyball {
+  width: 65px;
+}
+
+.copyright:hover, .copyright:active {
+  color: black;
+  text-decoration: none;
+}
+
+.copyright:link, .copyright:visited {
+  color: black;
+  text-decoration: none;
+}
